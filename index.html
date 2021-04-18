@@ -4,27 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>어피치 팬페이지</title>
 
-    <script>
-        function add() {
-            var header = document.createElement('h3'); //태그 생성
-
-            var textNode = document.createTextNode('내 이름은 홍길동입니다.');// 텍스트 생성
-
-            var head = document.createElement('h1'); //태그 생성
-            var text1 = document.createTextNode('내 이름은 이소영입니다.');// 텍스트 생성
-
-
-            header.appendChild(textNode);
-            document.body.appendChild(header);
-
-            head.appendChild(text1);
-            document.body.appendChild(head);
-        }
-    </script>
+    <link type="text/css" rel="stylesheet" href="style.css"></link>
 </head>
 <body>
-    <a href="#" onclick="add()">당신의 이름은 무엇입니까?</a>
+    <div class="container">
+        <div class="header">
+            <h1><a href="#">APEACH</a></h1>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">홈</a></li>
+                    <li> | </li>
+                    <li><a href="#">비공개 사진</a></li>
+                    <li> | </li>
+                    <li><a href="#">관련 기사</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>   
 </body>
 </html>
