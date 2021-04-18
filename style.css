@@ -10,7 +10,7 @@
 {
     width: 100%;
     height: 100vh;
-    background: url(pic1.png);
+    background: url(/pic1.png);
     background-size: cover;
 }
 .container .header{
