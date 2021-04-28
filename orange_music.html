@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주황</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+        body {
+            margin-top: -50px;
+            background: rgb(247, 190, 86);
+        }
+        .main{
+            background-color: orange;
+        }
+        audio::-webkit-media-controls-panel {
+            background-color: rgb(240, 161, 13);
+        }
+        span{
+            color:rgb(194, 131, 12);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title">
+    <p class="lable1">상큼한 오렌지가 생각나는 <span> 주황</span> 🍊</p>
+    </div>
+    <div class="main">
+        <div class="playing_part">
+            <div class="img">
+                <img src="juice.jpg" alt="img">
+            </div>
+        </div>
+
+        <!-- control part -->
+        <div class="control_part">
+            <div class="song_title">
+                <p>JUICE</p>
+                <p>Lizzo</p>
+            </div>
+
+            <div class="contrl_buttons">
+                <div class="range_slider">
+                    <audio class = "audio_player" id="player" src="orange.mp3" controls loop autoplay></audio>        
+                </div>
+
+                <div class="main_bts">
+                    <button id="previous" onclick=location.href="red_music.html"><i class='bx bx-skip-previous' ></i></button>
+                    <button id="home" onclick=location.href="choose.html"><i class='bx bxs-home' ></i></button>
+                    <button id="next" onclick=location.href="yellow_music.html"><i class='bx bx-skip-next' ></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

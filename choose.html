@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link type="text/css" rel="stylesheet" href="style_choose.css"></link>
+
+</head>
+
+<body>
+    <p class="title">당신의 기분에 맞는 <span class="change">색상</span>을 골라,
+    클릭하세요!</p>
+    <div class="wrapper">
+        <div class="circle first" onclick=location.href="red_music.html"
+        onmouseover="red_mouse()" onmouseout="red_mouse_out()">Red</div>
+        <div class="circle second" onclick=location.href="orange_music.html"
+        onmouseover="orange_mouse()" onmouseout="orange_mouse_out()">Orange</div>
+        <div class="circle three" onclick=location.href="yellow_music.html"
+        onmouseover="yellow_mouse()" onmouseout="yellow_mouse_out()">Yellow</div>
+        <div class="circle four" onclick=location.href="green_music.html"
+        onmouseover="green_mouse()" onmouseout="green_mouse_out()">Green</div>
+        <div class="circle five" onclick=location.href="blue_music.html"
+        onmouseover="blue_mouse()" onmouseout="blue_mouse_out()">Blue</div>
+        <div class="circle six" onclick=location.href="indigo_music.html"
+        onmouseover="indigo_mouse()" onmouseout="indigo_mouse_out()">Indigo</div>
+        <div class="circle seven" onclick=location.href="purple_music.html"
+        onmouseover="purple_mouse()" onmouseout="purple_mouse_out()">Purple</div>
+    </div>
+    
+    <p class="bottom" id="color_text">무슨 색을 고를까?</p>
+
+    <script>
+        var red = "red"; var orange = "orange"; var yellow = "yellow";
+        var green = "green"; var blue = "blue"; var indigo = "indigo"; 
+        var purple = "purple"; var black = "black";
+
+        function red_mouse() {
+            document.getElementById('color_text').innerHTML="Red를 고르셨군요!"
+            document.getElementById('color_text').style.color = red;
+        }
+        function red_mouse_out() {
+            document.getElementById('color_text').innerHTML=":)"
+            document.getElementById('color_text').style.color = black;
+        }
+
+        function orange_mouse() {
+            document.getElementById('color_text').innerHTML="Orange를 고르셨군요!"
+            document.getElementById('color_text').style.color = orange;
+        }
+        function orange_mouse_out() {
+            document.getElementById('color_text').innerHTML=":)"
+            document.getElementById('color_text').style.color = black;
+        }
+
+        function yellow_mouse() {
+            document.getElementById('color_text').innerHTML="Yellow를 고르셨군요!"
+            document.getElementById('color_text').style.color = yellow;
+        }
+        function yellow_mouse_out() {
+            document.getElementById('color_text').innerHTML=":)"
+            document.getElementById('color_text').style.color = black;
+        }
+
+        function green_mouse() {
+            document.getElementById('color_text').innerHTML="Green을 고르셨군요!"
+            document.getElementById('color_text').style.color = green;
+        }
+        function green_mouse_out() {
+            document.getElementById('color_text').innerHTML=":)"
+            document.getElementById('color_text').style.color = black;
+        }
+
+        function blue_mouse() {
+            document.getElementById('color_text').innerHTML="Blue를 고르셨군요!"
+            document.getElementById('color_text').style.color = blue;
+        }
+        function blue_mouse_out() {
+            document.getElementById('color_text').innerHTML=":)"
+            document.getElementById('color_text').style.color = black;
+        }
+
+        function indigo_mouse() {
+            document.getElementById('color_text').innerHTML="Indigo를 고르셨군요!"
+            document.getElementById('color_text').style.color = indigo;
+        }
+        function indigo_mouse_out() {
+            document.getElementById('color_text').innerHTML=":)"
+            document.getElementById('color_text').style.color = black;
+        }
+
+        function purple_mouse() {
+            document.getElementById('color_text').innerHTML="Purple을 고르셨군요!"
+            document.getElementById('color_text').style.color = purple;
+        }
+        function purple_mouse_out() {
+            document.getElementById('color_text').innerHTML=":)"
+            document.getElementById('color_text').style.color = black;
+        }
+    </script>
+
+
+
+</body>
+
+</html>
