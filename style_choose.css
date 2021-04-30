@@ -11,8 +11,9 @@
     font-style: normal;
 }
 
-* {
-    background-color: wheat;
+body {
+    background-image: url("체크배경.png");
+    background-size: cover;
 }
 
 .title {
