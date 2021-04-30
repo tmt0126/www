@@ -12,11 +12,11 @@
 }
 
 * {
-    background-color: rgb(230, 190, 190);
+    background-color: wheat;
 }
 
 .title {
-    margin-top: 200px;
+    margin-top: 170px;
     font-family: 'InkLipquid';
     font-size: 40px;
     align-items: center;
@@ -25,7 +25,7 @@
 }
 
 p {
-    margin-top: -10px;
+    margin-top: 57px;
     font-family: 'InkLipquid';
     font-size: 32px;
     align-items: center;
@@ -38,7 +38,7 @@ span{
 }
 .wrapper{
     text-align: center;
-    padding: 50px 0;
+    padding: 0 50px; 
 }
 .circle{
     margin-left: 10px;

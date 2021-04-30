@@ -36,7 +36,7 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 .container .header{
     width: 95%;
@@ -54,32 +54,34 @@
 }
 
 .container .middle {
-   width: 450px;
+   width: 500px;
    height: 200px;
    position: absolute;
    left: 50%;
    top: 50%;
-   margin-left: -200px;
+   margin-left: -250px;
    margin-top: -100px;
 }
 
 .container .middle button{
-    margin-top: 10px;
+    margin-top: 30px;
     height: 30px;
-    width: 150px;
+    width: 500px;
     position: relative;
-    left: 45%;
+    left: 0%;
     align-items: center;
-    background-color: indianred;
+    background-color : rgba(0,0,0,0);
+    color: black;
     border : none;
     font-family: 'UhBeeMiMi';
     font-size: 18px;
 }
 
 .container .middle button:hover {
-    background-color: rgb(182, 58, 58);
+    background-color: coral;
     transition: 1s;
     cursor:pointer;
+    
 }
 
 .container .middle p {
